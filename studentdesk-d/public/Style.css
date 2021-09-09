@@ -7,7 +7,7 @@
     list-style-type: none;
     margin: 0;
     float: right;
-    margin-right: 120px;
+    /* margin-right: 120px; */
 
 }
 
@@ -18,7 +18,7 @@
 
 .menu img{
     float: left;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 
 .menu li button{
@@ -40,7 +40,8 @@
 }
 
 .banner-bx{
-    background-color: #76ba5c;
+    background-image: url('http://www.studentdesk.in/dist/img/bg_studentdesk_in.jpg');
+    margin-top: 70px;
 }
 
 .banner-bx h3{
@@ -51,6 +52,7 @@
     padding: 3px 14px;
     width: 170px;
     border: 2px solid;
+    margin-top: 60px;
 }
 
 .btn-box #city-btn a{
@@ -63,6 +65,7 @@ font-weight: 600;
     padding: 10px 14px;
     width: 170px;
     border: 2px solid;
+    margin-top: 60px;
 
 }
 
@@ -77,8 +80,70 @@ font-weight: 600;
     font-size: 17px;
     color: white;
 }
+.banner-bx h3{
+    padding-top: 100px;
+}
 
 .btn-box span{
     color: white;
     font-weight: bold;
+}
+/* 
+.banner-bx #search{
+    border: 2px solid red;
+    margin: 10px 0px;
+} */
+
+.search{
+    margin-bottom: 140px;
+}
+
+.row .search{
+
+    background: rgba(199,193,195,.39);
+    padding: 10px;
+}
+
+.row input{
+    width: 45%;
+    border: none;
+    padding: 10px;
+    background: #fafafa;
+    border-radius: 10px 0px 0px 10px;
+    color: #5e5e5e;
+    font-size: 14px;
+
+}
+
+.Search-bx .search button{
+    height: 42px;
+    padding: 0px 13px;
+    border: none;
+    background-color: #76ba5c;;
+    border-radius: 0px 10px 10px 0px;
+}
+
+ul {
+
+    list-style-type: none;
+}
+.SearchLetter ul{
+    list-style-type: none;
+    padding: 17px;
+}
+
+.SearchLetter li{
+    display: inline;
+    text-decoration: none;
+    color: white;
+}
+
+
+.SearchLetter li a{
+    text-decoration: none;
+    color: white;
+}
+
+.section{
+    padding: 130px 0px;
 }

@@ -4,12 +4,14 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBuilding } from "@fortawesome/free-solid-svg-icons";
 import { faUniversity } from "@fortawesome/free-solid-svg-icons";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import SearchLetter from "./SearchLetter";
 
 export default function BannerBox() {
   return (
     <div className="banner-bx">
       <div className="container">
-        <h3 className="py-5">I Want to Buy/Sell/Exchange used Book in my</h3>
+        <h3 className="">I Want to Buy/Sell/Exchange used Book in my</h3>
         <div className="btn-box">
           <button id="city-btn" className="btn btn-outline-light">
             <FontAwesomeIcon icon={faBuilding} />
@@ -22,9 +24,21 @@ export default function BannerBox() {
             <Link to="/">INSTITUTE</Link>{" "}
           </button>
           {/* <Button variant="outline-dark">Dark</Button> */}
-
           <h5>Books in popular cities: Delhi, Pune, Bangalore, Ahmedabad</h5>
           <span>- OR -</span>
+          <div className="row">
+            <div className="Search-bx">
+              <div className="search">
+                <input type="text" placeholder="Search by Author/Book name" />
+                <button>
+                  <FontAwesomeIcon icon={faSearch} />
+                </button>
+                <ul>
+                    <li><SearchLetter /></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
