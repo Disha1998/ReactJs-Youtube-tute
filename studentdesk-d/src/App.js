@@ -6,7 +6,7 @@ import Login from "./StudentDesk component/Login";
 import BannerBox from "./StudentDesk component/BannerBox";
 import Books from "./StudentDesk component/Books";
 import InfoBox from "./StudentDesk component/InfoBox";
-import Slider from "./StudentDesk component/Slider";
+import Arrivels from "./StudentDesk component/Slider";
 
 function App() {
   return (
@@ -31,7 +31,7 @@ function App() {
         </Switch>
       </div>
       <InfoBox />
-      <Slider />
+      <Arrivels />
     </div>
   );
 }
