@@ -7,6 +7,8 @@ import BannerBox from "./StudentDesk component/BannerBox";
 import Books from "./StudentDesk component/Books";
 import InfoBox from "./StudentDesk component/InfoBox";
 import Arrivels from "./StudentDesk component/Slider";
+import Workbox from "./StudentDesk component/Workbox";
+import News from "./StudentDesk component/News";
 
 function App() {
   return (
@@ -32,6 +34,8 @@ function App() {
       </div>
       <InfoBox />
       <Arrivels />
+      <Workbox />
+      <News />
     </div>
   );
 }

@@ -198,14 +198,14 @@ ul {
     border-radius: 4px;
     float: right;
     font-weight: bolder;
-    background-color: greenyellow;
+    background-color: #76ba5c;
     
 }
 
 .slick-slider .slick-arrow::before{
     /* background-color: chartreuse; */
     margin: 5px;
-    padding: 3px 10px;
+    padding: 7px 14px;
 }
 .slick-slider .slick-next:before {
     content: 'Prev';
@@ -213,7 +213,7 @@ ul {
     font-weight: bolder;
     font-size: 12px;
     margin: 0px 0 0px -63px;
-    background-color: greenyellow;
+    background-color: #76ba5c;
     border-radius: 4px;
 }
 
@@ -229,4 +229,59 @@ ul {
     font-weight: 600;
     border: none;
     margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+/* How it's work */
+
+.work-ttl h3{
+    color: #576f7d;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+
+.work-ttl .line{
+    border: 2px solid #76ba5c;
+    width: 24%;
+    margin: 8px auto 15px;
+    margin-bottom: 100px;
+}
+
+/* News slider */
+
+.news-ttl{
+    background-color: #f3f3f3;
+}
+
+.news-ttl h3{
+    color: #576f7d;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 100px ;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+}
+
+.news-ttl .news-line{
+    border: 2px solid #76ba5c;
+    width: 32%;
+    margin: 8px auto 15px;
+    margin-top: -85px;
+    margin-bottom: 50px;
+}
+
+.news-ttl .container{
+    padding-bottom: 50px;
+    width: 62%;
+}
+
+.news-ttl .slick-slider .slick-arrow::before{
+    display: none;
 }
