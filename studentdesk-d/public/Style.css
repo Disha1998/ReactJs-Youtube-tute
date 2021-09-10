@@ -285,3 +285,81 @@ ul {
 .news-ttl .slick-slider .slick-arrow::before{
     display: none;
 }
+
+/* footer */
+
+.footer{
+    background-color: #333;
+    color: white;
+}
+.footer .f-one{
+    display: contents;
+   text-align: initial;
+}
+.footer .f-one .u1{
+    padding-left: 7px;
+}
+.footer ul {
+    color: #908F8F;
+}
+    
+.footer .f-two{
+    text-align: initial;
+    padding-left: 81px;
+}
+
+.footer .f-three{
+    text-align: initial;
+    /* padding-left: 81px; */
+}
+
+.footer .t1{
+    text-align: initial;
+    padding: 35px 0;
+}
+
+.footer .t2{
+    text-align: initial;
+    padding-left: 145px;
+    padding-top: 35px;
+}
+
+.footer .t3{
+    text-align: initial;
+    padding: 35px 0;
+}
+
+.footer .line1{
+    border: 2px solid #76ba5c;
+    margin: 10px 0 26px;
+    width: 78%;
+}
+
+.footer .line2{
+    border: 2px solid #76ba5c;
+    margin: 10px 0 26px;
+    width: 36%;
+}
+
+.footer .line3{
+    border: 2px solid #76ba5c;
+    margin: 10px 0 26px;
+    width: 50%;
+}
+
+
+.footer .footer-l{
+    border: 2px solid #76ba5c;
+    width: 100%;
+}
+
+/* copyrights */
+
+.footer .copyright{
+    color: #908F8F;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: #211E1E;
+    padding: 20px;
+}
+
