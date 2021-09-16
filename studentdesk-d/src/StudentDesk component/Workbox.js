@@ -6,7 +6,9 @@ export default function Workbox(){
     return(
       <Container>
            <div className="work-ttl">
-            <h3>How it works</h3>
+            <h3>How it works
+              
+            </h3>
             <div className="line"></div>
        </div>
        <div className="work-bx">
