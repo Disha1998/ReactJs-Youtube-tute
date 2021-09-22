@@ -9,22 +9,24 @@ import InfoBox from "./StudentDesk component/InfoBox";
 import Arrivels from "./StudentDesk component/Slider";
 import Workbox from "./StudentDesk component/Workbox";
 import News from "./StudentDesk component/News";
+import Home from "./StudentDesk component/Home";
 import Footer from "./StudentDesk component/Footer";
+
 
 function App() {
   return (
     <div className="App">
       <Header />
       <div>
+        {/* <Route path="/Login" exact>
+          <Login />
+        </Route> */}
+
         <Switch>
-          <Route path="/Login" exact>
-            <Login />
-          </Route>
 
-          <Route path="/" exact>
-            <BannerBox />
-          </Route>
-
+        <Route path="/" exact>
+          <Home />
+        </Route>
           <Route path="/Books" exact>
             <Books />
           </Route>
@@ -33,10 +35,8 @@ function App() {
           </Route> */}
         </Switch>
       </div>
-      <InfoBox />
-      <Arrivels />
-      <Workbox />
-      <News />
+     {/* <Home /> */}
+
       <Footer />
     </div>
   );

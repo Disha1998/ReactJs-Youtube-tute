@@ -357,16 +357,56 @@ ul {
   padding: 20px;
 }
 
-/* edia Query */
 
-/* @media screen and (max-width: 480px){
-header .menu li {
-    text-align: center;
-}
-}
 
-@media screen and (max-width: 530px){
-header #navbar .navbar-right {
-    text-align: center;
-}
+/* LISTING PAGE */
+
+/* .Listing{
+    /* display: inline-flex; */
+    /* text-align: initial;
+    border: 1px solid black;
+    width: 50%;
+}  */
+
+
+/* .Books .container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
 } */
+
+
+.List-btn {
+    display: flex;
+    
+}
+.detail-bx{
+    text-align: left;
+}
+
+.List-btn button{
+    margin-right: 10px;
+    margin-top: 20px;
+    background-color: #76ba5c;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding:6px 10px;
+}
+
+.title{
+    color: #76ba5c;
+}
+
+.Listing ul{
+    color: #666;
+}
+
+.Listing .postedby{
+    width: 100%;
+    direction: rtl;
+}
