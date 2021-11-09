@@ -287,47 +287,12 @@ ul {
   background-color: #333;
   color: white;
 }
-.footer .f-one {
-  display: contents;
-  text-align: initial;
-}
-.footer .f-one .u1 {
-  padding-left: 7px;
-}
-.footer ul {
-  color: #908f8f;
-}
-
-.footer .f-two {
-  text-align: initial;
-  padding-left: 81px;
-}
-
-.footer .f-three {
-  text-align: initial;
-  /* padding-left: 81px; */
-}
-
-.footer .t1 {
-  text-align: initial;
-  padding: 35px 0;
-}
-
-.footer .t2 {
-  text-align: initial;
-  padding-left: 145px;
-  padding-top: 35px;
-}
-
-.footer .t3 {
-  text-align: initial;
-  padding: 35px 0;
-}
 
 .footer .line1 {
   border: 2px solid #76ba5c;
-  margin: 10px 0 26px;
-  width: 78%;
+  margin: 10px 128px 10px;
+  width: 50%;
+
 }
 
 .footer .line2 {
@@ -342,11 +307,13 @@ ul {
   width: 50%;
 }
 
-.footer .footer-l {
-  border: 2px solid #76ba5c;
-  width: 100%;
+.text-content-old ul li{
+    display: inline-block;
+    padding: 5px;
+    float: left;
+    width: 50%;
+    margin-bottom: 12px;
 }
-
 /* copyrights */
 
 .footer .copyright {
@@ -357,32 +324,32 @@ ul {
   padding: 20px;
 }
 
+.copy-right{
+    padding: 20px;
+    background: #211E1E;
 
+}
 
 /* LISTING PAGE */
 
-/* .Listing{
-    /* display: inline-flex; */
-    /* text-align: initial;
-    border: 1px solid black;
-    width: 50%;
-}  */
+.Listing-bx{
+    box-shadow: 1px 0 4px #d1d1d1;
+    border: 1px solid #d1d1d1;
+}
 
-
-/* .Books .container {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-around;
-} */
-
-
+.img-list{
+    float: left;
+}
 .List-btn {
     display: flex;
     
 }
 .detail-bx{
     text-align: left;
+    float: left;
+}
+.detail-bx ul li {
+    color: grey;
 }
 
 .List-btn button{
@@ -405,8 +372,8 @@ ul {
 .Listing ul{
     color: #666;
 }
+.postedby{
+    float: right;
+    margin: 38px 84px;
 
-.Listing .postedby{
-    width: 100%;
-    direction: rtl;
 }

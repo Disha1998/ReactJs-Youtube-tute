@@ -6,14 +6,14 @@ export default function Header() {
     <div className="menu">
       <div className="container">
         <div className="row">
-          <div className=" col-lg-6 col-12">
+          <div className=" col-lg-6 col-md-9 col-sm-12">
             
-              <img src="http://www.studentdesk.in/img/logo.png" />
+              <img alt="" src="http://www.studentdesk.in/img/logo.png" />
             
           </div>
           <div className="row">
-            <div className="col-12">
-              <ul>
+            <div className="col-sm-12">
+              <ul className="col-sm-6" style={{marginTop:'5px'}}>
                 <li>
                   {" "}
                   <button>

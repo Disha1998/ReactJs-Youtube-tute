@@ -1,75 +1,84 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUniversity } from "@fortawesome/free-solid-svg-icons";
-// import { TiSocialFacebookCircular } from "react-icons/fa";
-// import { FaFacebook } from "@fortawesome/free-solid-svg-icons";
-
 
 export default function Footer() {
   return (
-    <div className="footer">
-      <div className="container">
-        <div className="row">
-          <div className="col t1">
-            <h4>Old Books in popular cities</h4>
+    <footer>
+    <div className="footer py-5">
+      {/* <div class="container"> */}
+      <div className="row">
+        <div className="col-lg-4">
+          <div className="footer-widget">
+            <div className="title-1">
+              <h4>Old Books in popular cities</h4>
+            </div>
             <div className="line1"></div>
-          </div>
-          <div className="col t2">
-            <h4>Quick Links</h4>
-            <div className="line2"></div>
-          </div>
-          <div className="col t3">
-            <h4>Keep Connected</h4>
-            <div className="line3"></div>
+            <div className="text-content-old">
+              <ul>
+                <li>Old Books in Pune</li>
+                <li>Old Books in Bangalore</li>
+                <li>Old Books in Ahmedabad</li>
+                <li>Old Books in Hyderabad</li>
+                <li>Old Books in Pune</li>
+                <li>Old Books in Bangalore</li>
+                <li>Old Books in Ahmedabad</li>
+                <li>Old Books in Hyderabad</li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div className="row">
-          <div className="col f-one">
-            <ul className="u1">
-              <li>Old Books in Pune</li>
-              <li>Old Books in Bangalore</li>
-              <li>Old Books in Ahmedabad</li>
-              <li>Old Books in Hyderabad</li>
-            </ul>
-            <ul>
-              <li>Old Books in Pune</li>
-              <li>Old Books in Bangalore</li>
-              <li>Old Books in Ahmedabad</li>
-              <li>Old Books in Hyderabad</li>
-            </ul>
-          </div>
 
-          <div className="col f-two">
-            <ul>
-              <li>Old Books in Pune</li>
-              <li>Old Books in Bangalore</li>
-              <li>Old Books in Ahmedabad</li>
-              <li>Old Books in Hyderabad</li>
-            </ul>
+        <div className="col-lg-4">
+          <div className="footer-widget">
+            <div className="title-1">
+              <h4>Quick Links</h4>
+            </div>
+            <div className="line1"></div>
+            <div className="text-content">
+              <ul>
+                <li>Old books(Used books)</li>
+                <li>Free/Donate Old Books</li>
+                <li>Entrance Exams books</li>
+                <li>Magazine</li>
+                <li>Exchange Novels</li>
+                <li>Buy used textbooks</li>
+                <li>Buy used novels</li>
+              </ul>
+            </div>
           </div>
-          <div className="col f-three">
-            <ul>
-              <li>Old Books in Pune</li>
-              <li>Old Books in Bangalore</li>
-              <li>Old Books in Ahmedabad</li>
-              <li>Old Books in Hyderabad</li>
-            </ul>
+        </div>
+
+        <div className="col-lg-4">
+          <div className="footer-widget">
+            <div className="title-1">
+              <h4>Keep Connected</h4>
+            </div>
+            <div className="line1"></div>
+            <div className="text-content">
+              <ul>
+                <li>About us</li>
+                <li>Privacy Policy</li>
+                <li>Terms & Conditions</li>
+                <li>Contact us</li>
+                <li>Blog</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-      <div className="footer-l"></div>
-      <div className="copyright">
-        <div className="col-6">
-          © Copyright 2020. All Rights Reserved. Product of CodeCrunch Techlabs
-          Pvt. Ltd.
-        </div>       
-       
-            <FontAwesomeIcon icon={faUniversity} />
-            {/* <FontAwesomeIcon icon={FaFacebook} /> */}
-        
+    </div>
+
+    <div className='copy-right'>
+    <div className='row'>
+      <div className='col-xl-6 col-lg-6' style={{color:'#908F8F'}}>
+      &copy;Copyright  2020. All Rights Reserved Product of <a  href='#'>CodeCrunch Techlabs Pvt. Ltd.</a>
+
+  
+
       </div>
-      </div>
-    
-    
+    </div>
+
+
+    </div>
+    </footer>
   );
 }
