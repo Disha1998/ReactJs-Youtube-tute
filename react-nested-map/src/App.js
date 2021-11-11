@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import { data } from 'browserslist';
+import User from './user';
 
 
 
@@ -31,9 +32,24 @@ function App() {
 
   return (
     <div className="App">
-     <table>
+      
+
+      {/* How to Reuse one component  */}
+
+      {
+        student.map((data)=>
+        <h1>{<User pro={data}/>}</h1>)
+        
+
+      }
+
+
+            {/* map() and nested map() */}
+
+     {/* <table>
        <tbody>
          <tr>
+           <td>Sr.No</td>
            <td>Name</td>
            <td>Email</td>
            <td>Address</td>
@@ -41,8 +57,9 @@ function App() {
        
         {
           //map()--simple
-          student.map((data)=>
-            <tr>
+          student.map((data, i)=>
+            <tr key={i}>
+              <td>{i+1}</td>
             <td>{data.name}</td>
             <td>{data.email}</td>
             <td>{
@@ -61,7 +78,7 @@ function App() {
         }
           </tbody>
      
-     </table>
+     </table> */}
     </div>
   );
 }
